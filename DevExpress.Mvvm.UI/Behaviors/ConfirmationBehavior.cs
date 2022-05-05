@@ -1,13 +1,13 @@
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.Xpf;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.Xpf;
 using System;
 using System.Linq;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class ConfirmationBehavior : Behavior<DependencyObject> {
         #region Dependency Properties
         static MessageBoxButton DefaultMessageBoxButton = MessageBoxButton.YesNo;

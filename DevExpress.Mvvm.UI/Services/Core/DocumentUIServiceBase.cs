@@ -1,12 +1,12 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Globalization;
 using System.Windows;
 using System.ComponentModel;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 using System.Windows.Data;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public abstract class DocumentUIServiceBase : ViewServiceBase {
         static readonly DependencyProperty TitleListenProperty =
             DependencyProperty.RegisterAttached("DocumentTitleListen", typeof(object), typeof(DocumentUIServiceBase), new PropertyMetadata(null, (d, e) => ViewModelExtensions.SetDocumentTitle(d, e.NewValue)));

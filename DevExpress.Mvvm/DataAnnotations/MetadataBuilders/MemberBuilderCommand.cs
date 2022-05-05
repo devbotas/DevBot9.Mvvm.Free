@@ -1,8 +1,8 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Linq.Expressions;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     public abstract class CommandMethodMetadataBuilderBase<T, TBuilder> :
         CommandMetadataBuilderBase<T, TBuilder> 
         where TBuilder : CommandMethodMetadataBuilderBase<T, TBuilder> {

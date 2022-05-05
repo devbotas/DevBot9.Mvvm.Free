@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public abstract class DXDataTypeAttribute : DXValidationAttribute {
         public PropertyDataType DataType { get; private set; }
         protected DXDataTypeAttribute() { throw new NotSupportedException(); }

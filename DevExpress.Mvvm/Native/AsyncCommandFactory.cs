@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class AsyncCommandFactory {
         internal static MethodInfo GetGenericMethodWithResult(Type parameterType1, Type parameterType2, bool withUseCommandManagerParameter) {
             var method = GetMethodByParameter("CreateFromFunction", withUseCommandManagerParameter ? new Type[] { typeof(Func<,>), typeof(Func<,>), typeof(bool), typeof(bool) } : new Type[] { typeof(Func<,>), typeof(Func<,>), typeof(bool) });

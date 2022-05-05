@@ -8,15 +8,15 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
-using DevExpress.Mvvm;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Mvvm.Xpf;
+using DevBot9.Mvvm;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Mvvm.Xpf;
 using WindowBase = System.Windows.Window;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public enum WindowShowMode { Dialog, Default }
     [TargetTypeAttribute(typeof(UserControl))]
     [TargetTypeAttribute(typeof(Window))]

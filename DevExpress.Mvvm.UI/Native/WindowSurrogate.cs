@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using WindowBase = System.Windows.Window;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface IWindowSurrogate {
         WindowBase RealWindow { get; }
         void Show();

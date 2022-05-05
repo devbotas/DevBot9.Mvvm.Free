@@ -1,4 +1,4 @@
-using DevExpress.Internal;
+using DevBot9.Internal;
 using System;
 using System.Drawing;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Interop;
 using System.Windows.Media.Imaging;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class WpfToastNotificationFactory : IPredefinedToastNotificationFactory {
         CustomNotifier notifier;
         public WpfToastNotificationFactory(CustomNotifier notifier) {

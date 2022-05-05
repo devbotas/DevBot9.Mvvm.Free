@@ -8,16 +8,16 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Utils;
-using DevExpress.Internal;
-using DevExpress.Xpf.Core.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Utils;
+using DevBot9.Internal;
+using DevBot9.Xpf.Core.Native;
 using System.Windows.Interop;
 using DxFileCustomPlaces = System.Windows.Forms.FileDialogCustomPlacesCollection;
 using DxDialogResult = System.Windows.Forms.DialogResult;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class Win32WindowWrapper : System.Windows.Forms.IWin32Window {
         public IntPtr Handle { get; private set; }
 
@@ -57,7 +57,7 @@ namespace DevExpress.Mvvm.UI.Native {
     }
 }
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
     public abstract class FileDialogServiceBase : WindowAwareServiceBase, IFileDialogServiceBase {
         protected abstract class FileDialogAdapter<TFileDialog> : IFileDialog where TFileDialog : FileDialog {

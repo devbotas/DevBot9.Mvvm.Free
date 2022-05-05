@@ -3,9 +3,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media.Animation;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class ToastContentControl : ContentControl {
         public static readonly DependencyProperty CommandProperty;
         public static readonly DependencyProperty TimerPausedProperty;

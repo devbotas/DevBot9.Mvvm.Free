@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.ModuleInjection;
+using DevBot9.Mvvm.ModuleInjection;
 using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
-namespace DevExpress.Mvvm.UI.ModuleInjection {
+namespace DevBot9.Mvvm.UI.ModuleInjection {
     public interface IStrategyManager {
         void RegisterStrategy<TTarget, TStrategy>()
             where TTarget : DependencyObject

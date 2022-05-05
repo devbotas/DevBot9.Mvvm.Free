@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     [Obsolete("Use the IDocumentContent interface instead.")]
     public interface IDocumentViewModel {
         bool Close();
@@ -20,7 +20,7 @@ namespace DevExpress.Mvvm {
         void Close(IDocumentContent documentContent, bool force = true);
     }
 }
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class DocumentViewModelHelper {
         public static void OnClose(object documentContentOrDocumentViewModel, CancelEventArgs e) {
             IDocumentContent documentContent = documentContentOrDocumentViewModel as IDocumentContent;

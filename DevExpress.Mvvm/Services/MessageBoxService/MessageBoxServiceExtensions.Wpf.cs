@@ -1,11 +1,11 @@
-using DevExpress.Mvvm;
+using DevBot9.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
     public static class MessageBoxServicePlatformExtensions {
         [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]

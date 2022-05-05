@@ -4,7 +4,7 @@ using System.Windows;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Media;
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
 
     public enum EnumeratorDirection { Forward, Backward }
 

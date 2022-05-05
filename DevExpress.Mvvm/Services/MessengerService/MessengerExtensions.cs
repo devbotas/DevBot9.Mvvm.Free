@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class MessengerExtensions {
         public static void Register<TMessage>(this IMessenger messenger, object recipient, Action<TMessage> action) {
             VerifyMessenger(messenger);

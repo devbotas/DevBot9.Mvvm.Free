@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class CanExecuteChangedEventHandler<TOwner> : WeakEventHandler<TOwner, EventArgs, EventHandler> where TOwner : class {
         static Action<WeakEventHandler<TOwner, EventArgs, EventHandler>, object> action = (h, o) => {
             if(o != null) 

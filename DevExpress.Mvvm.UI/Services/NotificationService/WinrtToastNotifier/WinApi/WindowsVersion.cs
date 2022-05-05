@@ -6,7 +6,7 @@ using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace DevExpress.Data.Controls.WinrtToastNotifier.WinApi {
+namespace DevBot9.Data.Controls.WinrtToastNotifier.WinApi {
     static class WindowsVersion {
         public static int Major;
         public static int Minor;

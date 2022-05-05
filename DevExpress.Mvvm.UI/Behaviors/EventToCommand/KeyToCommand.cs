@@ -1,9 +1,9 @@
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class KeyToCommand : EventToCommandBase {
         public static readonly DependencyProperty KeyGestureProperty =
             DependencyProperty.Register("KeyGesture", typeof(KeyGesture), typeof(KeyToCommand),

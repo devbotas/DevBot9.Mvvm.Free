@@ -1,5 +1,5 @@
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public enum PropertyDataType {
         Custom,
         Currency,

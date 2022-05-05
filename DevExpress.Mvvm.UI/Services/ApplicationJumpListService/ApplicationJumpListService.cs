@@ -9,15 +9,15 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Utils;
-using DevExpress.Internal;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Utils;
+using DevBot9.Internal;
 using System.Windows.Markup;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetTypeAttribute(typeof(UserControl))]
     [TargetTypeAttribute(typeof(Window))]
     [ContentProperty("Items")]
@@ -211,10 +211,10 @@ namespace DevExpress.Mvvm.UI {
         }
         protected virtual string GetLauncherPath() {
             if(!string.IsNullOrEmpty(CustomLauncherPath)) return NativeResourceManager.ExpandVariables(CustomLauncherPath);
-            string filePath = Path.Combine(NativeResourceManager.ExpandVariables(DefaultLauncherStorageFolder), "DevExpress.Mvvm.UI.ApplicationJumpTaskLauncher" + AssemblyInfo.VSuffix + ".exe");
+            string filePath = Path.Combine(NativeResourceManager.ExpandVariables(DefaultLauncherStorageFolder), "DevBot9.Mvvm.UI.ApplicationJumpTaskLauncher" + AssemblyInfo.VSuffix + ".exe");
             if(File.Exists(filePath) && NativeResourceManager.GetFileTime(filePath) > NativeResourceManager.GetApplicationCreateTime()) return filePath;
             Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-            Stream stream = AssemblyHelper.GetEmbeddedResourceStream(typeof(JumpActionsManager).Assembly, "DevExpress.Mvvm.UI.ApplicationJumpTaskLauncher.exe", true);
+            Stream stream = AssemblyHelper.GetEmbeddedResourceStream(typeof(JumpActionsManager).Assembly, "DevBot9.Mvvm.UI.ApplicationJumpTaskLauncher.exe", true);
             try {
                 File.WriteAllBytes(filePath, StreamHelper.CopyAllBytes(stream));
             } catch(IOException) { } catch(UnauthorizedAccessException) { }

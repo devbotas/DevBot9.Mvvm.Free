@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Input;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class ItemsControlMouseEventArgsConverter : EventArgsConverterBase<MouseEventArgs> {
         public static object GetDataRow(ItemsControl sender, MouseEventArgs args) {
             var converter = new ItemsControlMouseEventArgsConverter();

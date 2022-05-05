@@ -1,6 +1,6 @@
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetType(typeof(Control))]
     public class FocusBehavior : EventTriggerBase<Control> {
         public readonly static TimeSpan DefaultFocusDelay = TimeSpan.FromMilliseconds(0);

@@ -1,5 +1,5 @@
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -7,7 +7,7 @@ using System.Windows;
 using System.Linq;
 
 
-namespace DevExpress.Mvvm.UI.Interactivity {
+namespace DevBot9.Mvvm.UI.Interactivity {
     public abstract class AttachableCollection<T> : FreezableCollection<T>, IAttachableObject where T : DependencyObject, IAttachableObject {
 
         internal AttachableCollection() {

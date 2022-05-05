@@ -7,10 +7,10 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
-using DevExpress.Mvvm.Native;
-using DevExpress.Utils;
+using DevBot9.Mvvm.Native;
+using DevBot9.Utils;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class NativeResourceManager {
         public const string AppDataEnvironmentVariable = "%_DATA_%";
         public const string CompanyNameEnvironmentVariable = "%_COMPANY_%";

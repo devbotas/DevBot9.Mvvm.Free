@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface INotification {
         Task<NotificationResult> ShowAsync();
         void Hide();

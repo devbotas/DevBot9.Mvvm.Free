@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public abstract class DXValidationAttribute : Attribute {
         public delegate string ErrorMessageAccessorDelegate(object value, object instance);
         public static Func<object, string> ErrorMessageAccessor(Func<string> errorMessageAccessor) {

@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class SyncCollectionHelper {
         public static IDisposable TwoWayBind<TSource, TTarget>(IList<TTarget> target, IList<TSource> source, Func<TSource, TTarget> itemConverter, Func<TTarget, TSource> itemBackConverter) {
             return CollectionBindingHelper.Bind(target, itemConverter, source, itemBackConverter);

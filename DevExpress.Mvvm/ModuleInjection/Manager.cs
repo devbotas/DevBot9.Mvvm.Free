@@ -1,6 +1,6 @@
-using DevExpress.Mvvm.ModuleInjection.Native;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI;
+using DevBot9.Mvvm.ModuleInjection.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public enum LogicalSerializationMode { Disabled, Enabled }
     public enum VisualSerializationMode { Disabled, PerKey, PerViewType }
 
@@ -82,7 +82,7 @@ namespace DevExpress.Mvvm.ModuleInjection {
         }
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     public interface IModuleManagerImplementation : IModuleManagerBase, IModuleManager, IModuleWindowManager {
         bool KeepViewModelsAlive { get; }
         IViewModelLocator ViewModelLocator { get; }
@@ -98,7 +98,7 @@ namespace DevExpress.Mvvm.ModuleInjection.Native {
         void RaiseViewModelCreated(ViewModelCreatedEventArgs e);
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public class ModuleManager : IModuleManagerBase, IModuleManager, IModuleWindowManager, IModuleManagerImplementation {
         static IModuleManager _defaultInstance = new ModuleManager();
         static IModuleManager _default;

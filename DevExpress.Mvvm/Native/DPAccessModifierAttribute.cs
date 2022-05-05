@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     [AttributeUsage(AttributeTargets.Field)]
     public sealed class DPAccessModifierAttribute : Attribute {
         public DPAccessModifierAttribute(MemberVisibility setterVisibility = MemberVisibility.Public, MemberVisibility getterVisibility = MemberVisibility.Public, bool nonBrowsable = false) {

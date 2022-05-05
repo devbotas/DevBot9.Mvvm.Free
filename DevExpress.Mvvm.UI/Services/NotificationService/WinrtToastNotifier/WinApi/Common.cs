@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Security;
-using DevExpress.Internal.WinApi.Windows.UI.Notifications;
+using DevBot9.Internal.WinApi.Windows.UI.Notifications;
 
-namespace DevExpress.Internal.WinApi {
+namespace DevBot9.Internal.WinApi {
 #pragma warning disable 169
     [CLSCompliant(false)]
     public struct EventRegistrationToken : IEquatable<EventRegistrationToken> {

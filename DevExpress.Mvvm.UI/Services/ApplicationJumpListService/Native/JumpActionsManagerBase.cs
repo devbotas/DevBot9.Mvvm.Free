@@ -9,7 +9,7 @@ using System.Security;
 using System.ServiceModel;
 using System.Threading;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public abstract class JumpActionsManagerBase : IDisposable {
         public const int DefaultMillisecondsTimeout = 500;
         [StructLayout(LayoutKind.Sequential)]

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface IApplicationJumpListImplementation {
         ApplicationJumpTaskInfo Find(string commandId);
         bool AddOrReplace(ApplicationJumpTaskInfo jumpTask);

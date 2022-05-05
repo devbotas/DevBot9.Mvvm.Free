@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public enum MemberVisibility {
         Public,
         Protected,

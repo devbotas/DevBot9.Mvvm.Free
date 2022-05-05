@@ -2,11 +2,11 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using DevExpress.Internal.WinApi;
-using DevExpress.Internal.WinApi.Window.Data.Xml.Dom;
-using DevExpress.Internal.WinApi.Windows.UI.Notifications;
+using DevBot9.Internal.WinApi;
+using DevBot9.Internal.WinApi.Window.Data.Xml.Dom;
+using DevBot9.Internal.WinApi.Windows.UI.Notifications;
 
-namespace DevExpress.Internal {
+namespace DevBot9.Internal {
     class WinRTToastNotificationContent : IPredefinedToastNotificationContent, IPredefinedToastNotificationContentGeneric {
         string[] lines = new string[3];
         ToastTemplateType type;

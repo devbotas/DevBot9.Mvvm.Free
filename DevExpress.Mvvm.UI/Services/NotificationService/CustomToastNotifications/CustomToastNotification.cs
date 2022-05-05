@@ -1,5 +1,5 @@
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class CustomNotification {
         public object ViewModel { get; set; }
         CustomNotifier notifier;

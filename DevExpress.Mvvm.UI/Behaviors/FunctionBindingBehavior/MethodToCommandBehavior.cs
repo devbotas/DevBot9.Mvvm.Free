@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class MethodToCommandBehavior : FunctionBindingBehaviorBase {
         protected const string Error_SourceFunctionShouldBeBool = "The return value of the '{0}.{1}' function should be bool.";
 

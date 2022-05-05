@@ -1,16 +1,16 @@
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity;
 using System;
 using System.Linq;
 using System.Windows;
 using System.Windows.Data;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public abstract class FunctionBindingBehaviorBase : Behavior<DependencyObject> {
         #region error messages
         protected const string Error_PropertyNotFound = "Cannot find property with name {1} in the {0} class.";

@@ -1,6 +1,6 @@
 using System.Windows.Media;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class PredefinedToastNotificationVewModel {
         public NotificationTemplate ToastTemplate { get; set; }
         public string Text1 { get; set; }

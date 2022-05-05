@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class MemberVisibilityExtensions {
         public static bool IsStrongerThen(this MemberVisibility visibility, MemberVisibility value) {
             switch(visibility) {

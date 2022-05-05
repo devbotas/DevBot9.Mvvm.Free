@@ -8,8 +8,8 @@
     <Configurations>Debug;Release</Configurations>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <RootNamespace>DevExpress.Mvvm.UI</RootNamespace>
-    <AssemblyName>DevExpress.Mvvm.UI</AssemblyName>
+    <RootNamespace>DevBot9.Mvvm.UI</RootNamespace>
+    <AssemblyName>DevBot9.Mvvm.UI</AssemblyName>
     <LangVersion>6</LangVersion>
     <FileAlignment>512</FileAlignment>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -37,11 +37,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="DevExpress.Mvvm">
-      <HintPath>..\Bin\NETCoreDesktop\DevExpress.Mvvm.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="Behaviors\CompositeCommandBehavior.cs" />
     <Compile Include="Behaviors\ConfirmationBehavior.cs" />
@@ -213,5 +208,10 @@
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
     <PackageReference Include="System.ServiceModel.Http" Version="4.5.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevBot9.Mvvm">
+      <HintPath>..\Bin\NETCoreDesktop\DevBot9.Mvvm.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

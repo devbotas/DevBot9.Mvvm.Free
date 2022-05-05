@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IMessenger {
         void Register<TMessage>(object recipient, object token, bool receiveInheritedMessages, Action<TMessage> action);
         void Send<TMessage>(TMessage message, Type messageTargetType, object token);

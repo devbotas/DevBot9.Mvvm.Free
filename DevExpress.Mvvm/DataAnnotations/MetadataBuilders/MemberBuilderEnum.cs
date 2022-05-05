@@ -1,6 +1,6 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     public class EnumMemberMetadataBuilderGeneric<T, TBuilder> :
         MemberMetadataBuilderBase<T, TBuilder, EnumMetadataBuilder<T>>
         where T : struct 

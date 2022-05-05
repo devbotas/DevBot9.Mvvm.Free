@@ -1,7 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public class ModuleInjectionException : Exception {
         const string moduleMissing = "Cannot find a module with the passed key. Register module before working with it.";
         const string moduleExists = "A module with the same key already exists.";

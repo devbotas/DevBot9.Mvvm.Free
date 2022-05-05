@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Shell;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public struct Container<T>  : IEquatable<Container<T>> {
         public Container(T content)
             : this() {

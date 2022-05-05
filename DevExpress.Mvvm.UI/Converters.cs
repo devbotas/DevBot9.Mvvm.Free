@@ -4,18 +4,18 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Windows;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Reflection;
 using System.Windows.Data;
 using System.Windows.Markup;
 using System.Collections.Generic;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 using System.Collections;
 using System.Windows.Media;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class ReflectionConverter : IValueConverter {
         class TypeUnsetValue { }
         Type convertBackMethodOwner = typeof(TypeUnsetValue);
@@ -752,7 +752,7 @@ namespace DevExpress.Mvvm.UI {
         }
     }
 }
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class BrushesCache {
         public static SolidColorBrush GetBrush(Color color) {
             WeakReference r;

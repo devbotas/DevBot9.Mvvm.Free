@@ -4,7 +4,7 @@ using System.Security;
 using System.Windows;
 using System.Windows.Interop;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public partial class ToastWindow : Window {
         public ToastWindow() {
             Loaded += ToastWindow_Loaded;

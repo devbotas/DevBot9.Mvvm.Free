@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace DevExpress.DXBinding.Native {
+namespace DevBot9.DXBinding.Native {
     public class Operand {
         public enum RelativeSource { Context, Self, Parent, Element, Resource, Reference, Ancestor }
         public string Path { get; private set; }

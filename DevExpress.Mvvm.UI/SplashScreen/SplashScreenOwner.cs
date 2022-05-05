@@ -4,17 +4,17 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Windows;
 using System.Windows.Threading;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Input;
 using System.Threading;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 using System.Collections;
 using System.Reflection;
 
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
 
     public enum SplashScreenLocation {
         CenterContainer,

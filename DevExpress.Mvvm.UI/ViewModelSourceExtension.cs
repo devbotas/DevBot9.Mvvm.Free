@@ -1,8 +1,8 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Windows.Markup;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class ViewModelSourceExtension : MarkupExtension {
         public Type Type { get; set; }
         public ViewModelSourceExtension() { }

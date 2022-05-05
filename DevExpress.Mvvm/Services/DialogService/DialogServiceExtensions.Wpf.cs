@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.Xpf {
+namespace DevBot9.Mvvm.Xpf {
     [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
     public static class DialogServicePlatformExtension {
         [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Windows;
-using DevExpress.Mvvm.Internal;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Internal;
+using DevBot9.Mvvm.Native;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public class Messenger : IMessenger {
         #region Inner Classes
         public struct ActionInvokerTokenPair {

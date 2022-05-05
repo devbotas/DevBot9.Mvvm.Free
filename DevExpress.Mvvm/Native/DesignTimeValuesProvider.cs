@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class DesignTimeValuesProvider {
         public static readonly DateTime Today = DateTime.Today;
         public static object[] Types = new object[] { typeof(string), typeof(DateTime), typeof(int), typeof(Decimal), typeof(byte),

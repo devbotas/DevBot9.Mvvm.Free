@@ -5,11 +5,11 @@ using System.Text;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IApplicationJumpItem {
         string CustomCategory { get; set; }
     }

@@ -1,9 +1,9 @@
-using DevExpress.Internal;
+using DevBot9.Internal;
 using System;
 using System.Collections;
 using System.Reflection;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     static class DynamicAssemblyHelper {
         static Lazy<Assembly> mvvmUIAssembly = new Lazy<Assembly>(() => ResolveAssembly(MvvmAssemblyHelper.MvvmUIAssemblyName));
         public static Assembly MvvmUIAssembly { get { return mvvmUIAssembly.Value; } }

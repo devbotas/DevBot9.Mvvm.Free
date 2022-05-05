@@ -1,9 +1,9 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Linq.Expressions;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     public abstract class CommandMetadataBuilderBase<T, TBuilder> :
         MemberMetadataBuilderBase<T, TBuilder, ClassMetadataBuilder<T>> 
         where TBuilder : CommandMetadataBuilderBase<T, TBuilder> {

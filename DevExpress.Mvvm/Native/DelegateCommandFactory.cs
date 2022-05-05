@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class DelegateCommandFactory {
         internal static MethodInfo GetGenericMethodWithoutResult(Type parameterType, bool withUseCommandManagerParameter) {
             var method = GetMethodByParameter("Create", withUseCommandManagerParameter ? new Type[] { typeof(Action<>), typeof(Func<,>), typeof(bool) } : new Type[] { typeof(Action<>), typeof(Func<,>) });

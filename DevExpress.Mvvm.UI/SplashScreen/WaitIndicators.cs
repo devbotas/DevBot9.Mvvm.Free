@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Media.Animation;
 
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class WaitIndicator : ContentControl {
         public static int? DesiredFrameRate { get; set; }
 

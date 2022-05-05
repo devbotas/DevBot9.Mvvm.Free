@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
-using DevExpress.Mvvm.Native;
-using DevExpress.Xpf.Core.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Xpf.Core.Native;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public delegate void UnregisterCallback<E>(EventHandler<E> eventHandler) where E : EventArgs;
     public interface IAnotherWeakEventHandler<E> where E : EventArgs {
         EventHandler<E> Handler { get; }

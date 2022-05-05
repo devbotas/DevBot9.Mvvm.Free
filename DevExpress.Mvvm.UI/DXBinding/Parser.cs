@@ -6,7 +6,7 @@ enum ParserMode { BindingExpr, BindingBackExpr, CommandExecute, CommandCanExecut
 
 
 
-namespace DevExpress.DXBinding.Native {
+namespace DevBot9.DXBinding.Native {
 
 
 class Parser : ParserBase {

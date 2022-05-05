@@ -1,8 +1,8 @@
-using DevExpress.Mvvm.ModuleInjection;
-using DevExpress.Mvvm.ModuleInjection.Native;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.ModuleInjection;
+using DevBot9.Mvvm.ModuleInjection.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DevExpress.Mvvm.UI.ModuleInjection {
+namespace DevBot9.Mvvm.UI.ModuleInjection {
     public abstract class UIRegionBase : ServiceBaseGeneric<DependencyObject>, IUIRegion {
         #region Static
         public static readonly DependencyProperty InheritedServiceProperty;
@@ -58,8 +58,8 @@ namespace DevExpress.Mvvm.UI.ModuleInjection {
             WaitForInitialization = true;
         }
         protected DOTargetWrapper Target { get; private set; }
-        protected internal IModuleManagerImplementation ActualModuleManager { get { return ModuleManager ?? DevExpress.Mvvm.ModuleInjection.ModuleManager.DefaultImplementation; } }
-        protected internal IStrategyManager ActualStrategyManager { get { return StrategyManager ?? DevExpress.Mvvm.UI.ModuleInjection.StrategyManager.Default; } }
+        protected internal IModuleManagerImplementation ActualModuleManager { get { return ModuleManager ?? DevBot9.Mvvm.ModuleInjection.ModuleManager.DefaultImplementation; } }
+        protected internal IStrategyManager ActualStrategyManager { get { return StrategyManager ?? DevBot9.Mvvm.UI.ModuleInjection.StrategyManager.Default; } }
         protected virtual object ActualParentViewModel { get { return ParentViewModel ?? Target.With(x => x.DataContext); } }
         protected override bool AllowAttachInDesignMode { get { return false; } }
 

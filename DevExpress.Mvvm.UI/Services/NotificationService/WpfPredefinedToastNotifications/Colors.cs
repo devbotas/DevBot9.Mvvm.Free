@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     class BackgroundCalculator {
         static Color[][] colorTable = new Color[][] {
             new Color[] { Color.FromArgb(76, 153, 255), Color.FromArgb(9, 74, 178) },

@@ -1,19 +1,12 @@
-﻿<Window x:Class="DevExpress.Mvvm.UI.Native.ToastWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
-        xmlns:local="clr-namespace:DevExpress.Internal"
+﻿<Window x:Class="DevBot9.Mvvm.UI.Native.ToastWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" xmlns:local="clr-namespace:DevBot9.Internal"
         Title="ToastWindow"
-        AllowsTransparency="True"
-        WindowStyle="None"
-        SizeToContent="WidthAndHeight"
-        ShowActivated="False"
-        ShowInTaskbar="False"
-        Topmost="True">
+        AllowsTransparency="True" ShowActivated="False" ShowInTaskbar="False" SizeToContent="WidthAndHeight" Topmost="True" WindowStyle="None">
     <Window.Template>
         <ControlTemplate TargetType="Window">
             <AdornerDecorator>
-                <ContentPresenter/>
+                <ContentPresenter />
             </AdornerDecorator>
         </ControlTemplate>
     </Window.Template>

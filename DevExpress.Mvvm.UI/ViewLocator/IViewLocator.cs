@@ -4,7 +4,7 @@ using System;
 using System.Windows;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public static class ViewLocatorExtensions {
         public static DataTemplate CreateViewTemplate(this IViewLocator viewLocator, Type viewType) {
             Verify(viewLocator);

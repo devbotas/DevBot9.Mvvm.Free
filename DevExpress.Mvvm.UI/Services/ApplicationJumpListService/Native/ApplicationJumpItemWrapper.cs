@@ -1,9 +1,9 @@
 using System;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
-using DevExpress.Utils;
+using DevBot9.Mvvm.Native;
+using DevBot9.Utils;
 #if !DXCORE3
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class ApplicationJumpItemWrapper {
         public static JumpItem Wrap(ApplicationJumpItemInfo applicationJumpItem) {
             ApplicationJumpTaskInfo applicationJumpTask = applicationJumpItem as ApplicationJumpTaskInfo;

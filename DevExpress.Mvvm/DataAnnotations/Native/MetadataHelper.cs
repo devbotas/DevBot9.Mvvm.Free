@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.DataAnnotations;
+using DevBot9.Mvvm.DataAnnotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Collections.Concurrent;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public interface IAttributesProvider {
         IEnumerable<Attribute> GetAttributes(string propertyName);
     }

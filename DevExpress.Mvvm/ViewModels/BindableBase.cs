@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq.Expressions;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Runtime.CompilerServices;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     [System.Runtime.Serialization.DataContract]
     public abstract class BindableBase : INotifyPropertyChanged {
         public static string GetPropertyName<T>(Expression<Func<T>> expression) {

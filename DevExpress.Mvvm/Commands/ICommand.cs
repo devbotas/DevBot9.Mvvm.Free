@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IDelegateCommand : ICommand {
         void RaiseCanExecuteChanged();
     }
@@ -24,7 +24,7 @@ namespace DevExpress.Mvvm {
         Task ExecuteAsync(object parameter);
     }
 }
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     [EditorBrowsable(EditorBrowsableState.Never)]
     public static class IAsyncCommandExtensions {
 #if DEBUG
@@ -40,14 +40,14 @@ namespace DevExpress.Mvvm {
         }
     }
 }
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class ICommandExtensions {
         public static ICommand<T> ToTypedCommand<T>(this ICommand command) {
             return new Native.TypedCommandWrapper<T>(command);
         }
     }
 }
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class TypedCommandHelper {
         public static bool IsTypedCommand(Type type) {
             return IsTypedCommandCore(type) || type.GetInterfaces().Any(IsTypedCommandCore);

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IFileSystemInfo {
         string DirectoryName { get; }
         string Name { get; }

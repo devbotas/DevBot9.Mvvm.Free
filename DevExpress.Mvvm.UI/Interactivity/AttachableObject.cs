@@ -1,10 +1,10 @@
 using System.ComponentModel;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
 using System;
 using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace DevExpress.Mvvm.UI.Interactivity {
+namespace DevBot9.Mvvm.UI.Interactivity {
     public interface IAttachableObject {
         DependencyObject AssociatedObject { get; }
         void Attach(DependencyObject dependencyObject);

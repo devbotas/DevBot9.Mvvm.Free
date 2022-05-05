@@ -1,5 +1,5 @@
-using DevExpress.Mvvm.DataAnnotations;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.DataAnnotations;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,10 +9,10 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Input;
-using DevExpress.Mvvm.POCO;
+using DevBot9.Mvvm.POCO;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public abstract class ViewModelBase : BindableBase, ISupportParentViewModel, ISupportServices, ISupportParameter, ICustomTypeDescriptor {
         internal const string Error_ParentViewModel = "ViewModel cannot be parent of itself.";
         static readonly object NotSetParameter = new object();

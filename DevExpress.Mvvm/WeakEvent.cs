@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public class WeakEventAttribute : Attribute { }
     public class WeakEvent<TEventHandler, TEventArgs> {
         delegate void WeakEventHandler(object target, object sender, TEventArgs e);

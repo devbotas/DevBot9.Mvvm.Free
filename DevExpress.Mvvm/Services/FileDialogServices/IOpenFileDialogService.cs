@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IOpenDialogServiceBase : IFileDialogServiceBase {
         bool Multiselect { get; set; }
 

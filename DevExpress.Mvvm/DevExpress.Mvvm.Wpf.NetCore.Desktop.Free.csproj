@@ -1,4 +1,4 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <ProjectGuid>{7545BCBC-E63B-082A-2109-556174DE4D1A}</ProjectGuid>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -8,8 +8,8 @@
     <Configurations>Debug;Release</Configurations>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <RootNamespace>DevExpress.Mvvm</RootNamespace>
-    <AssemblyName>DevExpress.Mvvm</AssemblyName>
+    <RootNamespace>DevBot9.Mvvm</RootNamespace>
+    <AssemblyName>DevBot9.Mvvm</AssemblyName>
     <LangVersion>6</LangVersion>
     <FileAlignment>512</FileAlignment>
     <AppDesignerFolder>Properties</AppDesignerFolder>

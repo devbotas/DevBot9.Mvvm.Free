@@ -7,15 +7,15 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Utils;
-using DevExpress.Internal;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Utils;
+using DevBot9.Internal;
 using System.Windows.Markup;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public abstract class ApplicationJumpItemCollection : IList<ApplicationJumpItem>, IList {
         IApplicationJumpListImplementation implementation;
         [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]

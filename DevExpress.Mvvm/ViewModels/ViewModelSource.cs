@@ -1,6 +1,6 @@
-using DevExpress.Internal;
-using DevExpress.Mvvm.DataAnnotations;
-using DevExpress.Mvvm.Native;
+using DevBot9.Internal;
+using DevBot9.Mvvm.DataAnnotations;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,24 +13,24 @@ using System.Windows.Input;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class ViewModelSourceHelper {
         public static Type GetProxyType(Type type) {
-            return DevExpress.Mvvm.POCO.ViewModelSource.GetPOCOType(type);
+            return DevBot9.Mvvm.POCO.ViewModelSource.GetPOCOType(type);
         }
         public static object Create(Type type) {
-            return DevExpress.Mvvm.POCO.ViewModelSource.Create(type);
+            return DevBot9.Mvvm.POCO.ViewModelSource.Create(type);
         }
         public static bool IsPOCOViewModelType(Type type) {
-            return DevExpress.Mvvm.POCO.ViewModelSource.IsPOCOViewModelType(type);
+            return DevBot9.Mvvm.POCO.ViewModelSource.IsPOCOViewModelType(type);
         }
         public static ConstructorInfo FindConstructorWithAllOptionalParameters(Type type) {
-            return DevExpress.Mvvm.POCO.ViewModelSource.FindConstructorWithAllOptionalParameters(type);
+            return DevBot9.Mvvm.POCO.ViewModelSource.FindConstructorWithAllOptionalParameters(type);
         }
 
     }
 }
-namespace DevExpress.Mvvm.POCO {
+namespace DevBot9.Mvvm.POCO {
     public interface IPOCOViewModel {
         void RaisePropertyChanged(string propertyName);
         void RaisePropertyChanging(string propertyName);
@@ -924,7 +924,7 @@ namespace DevExpress.Mvvm.POCO {
                 ExpressionHelper.GetMethod(raisePropertyChangingExpression));
         }
         static MethodBuilder RaiseEventMethod(Type baseType, TypeBuilder type, MethodInfo raiseMethod, string methodName) {
-            MethodBuilder method = type.DefineMethod("DevExpress.Mvvm.Native.IPOCOViewModel" + methodName,
+            MethodBuilder method = type.DefineMethod("DevBot9.Mvvm.Native.IPOCOViewModel" + methodName,
                 MethodAttributes.Private | MethodAttributes.Virtual | MethodAttributes.Final | MethodAttributes.HideBySig | MethodAttributes.NewSlot);
             method.SetReturnType(typeof(void));
             method.SetParameters(typeof(String));
@@ -1320,8 +1320,8 @@ namespace DevExpress.Mvvm.POCO {
     #endregion
 }
 
-namespace DevExpress.Mvvm.Native {
-    using DevExpress.Mvvm.POCO;
+namespace DevBot9.Mvvm.Native {
+    using DevBot9.Mvvm.POCO;
     public class INPCEventHelper {
         event PropertyChangedEventHandler PropertyChanged;
         event PropertyChangingEventHandler PropertyChanging;

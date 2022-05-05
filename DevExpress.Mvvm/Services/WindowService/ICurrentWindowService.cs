@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Windows;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public enum DXWindowState { Normal = 0, Minimized = 1, Maximized = 2 }
     public interface ICurrentWindowService {
         void Close();

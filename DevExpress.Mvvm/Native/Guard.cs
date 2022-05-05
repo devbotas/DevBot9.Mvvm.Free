@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class GuardHelper {
         public static void ArgumentNotNull(object value, string name) {
             if (Object.ReferenceEquals(value, null))

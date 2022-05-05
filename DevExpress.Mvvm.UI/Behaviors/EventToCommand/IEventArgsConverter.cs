@@ -1,6 +1,6 @@
 using System;
 using System.Windows.Markup;
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public interface IEventArgsConverter {
         object Convert(object sender, object args);
     }

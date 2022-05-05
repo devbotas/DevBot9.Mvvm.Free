@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     public abstract class MetadataBuilderBase<T, TMetadataBuilder> : 
         IAttributesProvider,
         IAttributeBuilderInternal,

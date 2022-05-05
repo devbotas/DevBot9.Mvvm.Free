@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -10,7 +10,7 @@ using System.Windows.Input;
 using System.Reflection;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class TypeCastHelper {
         public static object TryCast(object value, Type targetType) {
             Type underlyingType = Nullable.GetUnderlyingType(targetType) ?? targetType;

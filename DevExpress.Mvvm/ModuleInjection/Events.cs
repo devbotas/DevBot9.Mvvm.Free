@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Windows;
 
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public class NavigationEventArgs : EventArgs {
         public string RegionName { get; private set; }
         public object OldViewModel { get; private set; }
@@ -81,7 +81,7 @@ namespace DevExpress.Mvvm.ModuleInjection {
         event EventHandler<ViewModelRemovedEventArgs> ViewModelRemoved;
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     public interface IRegionEventManagerImplementation : IRegionEventManager {
         void RaiseNavigation(object sender, NavigationEventArgs e);
         void RaiseViewModelCreated(object sender, ViewModelCreatedEventArgs e);
@@ -95,7 +95,7 @@ namespace DevExpress.Mvvm.ModuleInjection.Native {
         void RaiseViewModelRemoved(object sender, ViewModelRemovedEventArgs e);
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     public class RegionEventManager : IRegionEventManager, IRegionEventManagerImplementation {
         WeakEvent<EventHandler<NavigationEventArgs>, NavigationEventArgs> navigation = new WeakEvent<EventHandler<NavigationEventArgs>, NavigationEventArgs>();
         WeakEvent<EventHandler<ViewModelCreatedEventArgs>, ViewModelCreatedEventArgs> viewModelCreated = new WeakEvent<EventHandler<ViewModelCreatedEventArgs>, ViewModelCreatedEventArgs>();

@@ -5,11 +5,11 @@ using System.Text;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public abstract class DependencyObjectExt : Freezable {
         protected override sealed Freezable CreateInstanceCore() { return this; }
         protected override sealed void CloneCore(Freezable sourceFreezable) { base.CloneCore(sourceFreezable); }

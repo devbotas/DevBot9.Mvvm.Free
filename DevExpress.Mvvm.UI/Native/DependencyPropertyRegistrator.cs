@@ -4,9 +4,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Windows;
 using System.Windows.Controls;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
 
     interface IDPValueStorage {
         void SetValue(object value);

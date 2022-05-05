@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public interface IVisualStateService {
         string DefaultState { get; }
         string GetCurrentState();
@@ -66,7 +66,7 @@ namespace DevExpress.Mvvm.ModuleInjection {
         }
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     public interface IVisualStateServiceImplementation : IVisualStateService {
         string Id { get; }
         void EnforceSaveState();

@@ -5,8 +5,8 @@ using System.ComponentModel;
 using System.Windows.Controls;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm.UI {
-    public abstract class EventToCommandBase : DevExpress.Mvvm.UI.Interactivity.EventTrigger {
+namespace DevBot9.Mvvm.UI {
+    public abstract class EventToCommandBase : DevBot9.Mvvm.UI.Interactivity.EventTrigger {
         public static readonly DependencyProperty CommandProperty =
            DependencyProperty.Register("Command", typeof(ICommand), typeof(EventToCommandBase),
            new PropertyMetadata(null, (d, e) => ((EventToCommandBase)d).OnCommandChanged((ICommand)e.OldValue, (ICommand)e.NewValue)));

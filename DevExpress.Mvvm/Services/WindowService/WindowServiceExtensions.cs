@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Windows;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class WindowServiceExtensions {
         public static void Show(this IWindowService service, object viewModel) {
             VerifyService(service);

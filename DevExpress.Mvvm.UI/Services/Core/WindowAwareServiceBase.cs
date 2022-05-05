@@ -1,8 +1,8 @@
 using System;
 using System.Windows;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public abstract class WindowAwareServiceBase : ServiceBase {
         public static readonly DependencyProperty WindowSourceProperty =
             DependencyProperty.Register("WindowSource", typeof(FrameworkElement), typeof(WindowAwareServiceBase), new PropertyMetadata(null,

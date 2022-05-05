@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System;
 using System.Security;
-using DevExpress.Mvvm.Native;
-using DevExpress.Internal;
+using DevBot9.Mvvm.Native;
+using DevBot9.Internal;
 
 [assembly: AssemblyTitle("DevExpress.Mvvm")]
 [assembly: AssemblyDescription("")]

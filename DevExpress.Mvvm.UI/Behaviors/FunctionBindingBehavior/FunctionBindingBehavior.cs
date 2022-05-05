@@ -1,10 +1,10 @@
 using System;
 using System.Windows;
 using System.Windows.Data;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Globalization;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class FunctionBindingBehavior : FunctionBindingBehaviorBase {
         #region Dependency Properties
         public static readonly DependencyProperty PropertyProperty = 

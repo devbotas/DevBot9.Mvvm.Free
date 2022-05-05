@@ -6,7 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace DevExpress.Xpf.DXBinding {
+namespace DevBot9.Xpf.DXBinding {
     [ContentProperty("Template")]
     public class DXDataTemplateTrigger : DXTriggerBase {
         DataTemplate template;

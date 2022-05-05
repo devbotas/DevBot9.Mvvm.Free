@@ -6,7 +6,7 @@ using System.Security;
 using System.Windows;
 using System.Windows.Shell;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class TaskbarInfoApplicator {
         public static void SetTaskbarItemInfo(Window window, TaskbarItemInfo itemInfo) {
             Debug.Assert(window.TaskbarItemInfo == null, "SetTaskbarItemInfo.Assert");

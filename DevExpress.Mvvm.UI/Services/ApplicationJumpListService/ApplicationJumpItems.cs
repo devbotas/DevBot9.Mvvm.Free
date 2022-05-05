@@ -5,12 +5,12 @@ using System.Text;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows;
 using System.ComponentModel;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public abstract class ApplicationJumpItem : DependencyObjectExt, ISupportInitialize, ICloneable, IApplicationJumpItemInfoSource, IApplicationJumpItem {
         public static ApplicationJumpItemInfo GetItemInfo(ApplicationJumpItem item) { return item.ItemInfo; }
         public static ApplicationJumpItem GetItem(ApplicationJumpItemInfo itemInfo) {

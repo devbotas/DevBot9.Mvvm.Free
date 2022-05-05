@@ -1,11 +1,11 @@
-using DevExpress.Internal;
+using DevBot9.Internal;
 using System;
 using System.Windows;
 using System.Windows.Data;
 using System.Globalization;
 using System.Windows.Media;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class NotificationServiceTemplatesHelper {
         static ResourceDictionary resourceDictionary = null;
         static ResourceDictionary GetResourceDictionary() {

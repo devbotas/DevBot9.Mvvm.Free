@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
     public class POCOViewModelAttribute : Attribute {
         public bool ImplementIDataErrorInfo;

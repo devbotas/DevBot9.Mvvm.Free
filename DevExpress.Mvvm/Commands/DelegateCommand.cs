@@ -1,5 +1,5 @@
 #pragma warning disable 612,618
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     class CommandManagerHelper {
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
         public static void Subscribe(EventHandler canExecuteChangedHandler) {

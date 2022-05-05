@@ -1,7 +1,7 @@
 using System;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI.Interactivity {
+namespace DevBot9.Mvvm.UI.Interactivity {
     public abstract class Behavior : AttachableObjectBase {
         internal Behavior(Type type)
             : base(type) {

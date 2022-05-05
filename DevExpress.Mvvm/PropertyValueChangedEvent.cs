@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public delegate void PropertyValueChangedEventHandler<T>(object sender, PropertyValueChangedEventArgs<T> e);
     public class PropertyValueChangedEventArgs<T> : EventArgs {
         public T NewValue { get; private set; }

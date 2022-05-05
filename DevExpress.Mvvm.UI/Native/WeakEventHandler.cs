@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 using System.Collections.Specialized;
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     #region WeakEventHandler
     public interface IWeakEventHandler<THandler> {
         THandler Handler { get; }

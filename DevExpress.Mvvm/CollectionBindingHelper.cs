@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Windows;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class CollectionBindingHelper {
         #region inner classses
         sealed class CollectionLocker {

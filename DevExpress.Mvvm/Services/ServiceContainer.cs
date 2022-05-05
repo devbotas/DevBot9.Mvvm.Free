@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections;
 using System.Collections.Concurrent;
@@ -8,7 +8,7 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public abstract class ServiceContainerBase {
         protected class ServiceInfo {
             public static ServiceInfo Create(string key, object service, bool yieldToParent = false) {

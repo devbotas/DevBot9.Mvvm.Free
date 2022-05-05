@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.ComponentModel;
 using System.Windows;
@@ -7,7 +7,7 @@ using System.Windows.Media;
 using System.Windows.Data;
 using System.Globalization;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public static class ViewHelper {
         internal const string Error_CreateViewMissArguments = "It is impossible to create a view based on passed parameters. ViewTemplate/ViewTemplateSelector or DocumentType should be set.";
         internal const string HelpLink_CreateViewMissArguments = "https://docs.devexpress.com/WPF/17469/mvvm-framework/services/view-creation-mechanisms";

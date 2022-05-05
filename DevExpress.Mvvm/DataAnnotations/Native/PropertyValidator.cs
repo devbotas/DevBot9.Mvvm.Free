@@ -6,7 +6,7 @@ using System.Linq;
 using System.Security;
 using System.Text;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     [SecuritySafeCritical]
     public class PropertyValidator {
         public static PropertyValidator FromAttributes(IEnumerable attributes, string propertyName) {

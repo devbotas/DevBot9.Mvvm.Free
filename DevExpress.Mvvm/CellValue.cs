@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public class CellValue {
         public CellValue(object row, string property, object value) {
             Value = value;

@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 
 #region Events
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public delegate void ViewModelClosingEventHandler(object sender, ViewModelClosingEventArgs e);
     public class ViewModelClosingEventArgs : CancelEventArgs {
         public object ViewModel { get; private set; }
@@ -17,7 +17,7 @@ namespace DevExpress.Mvvm {
 #endregion
 
 #region IViewInjectionService
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IViewInjectionService {
         [EditorBrowsable(EditorBrowsableState.Never)]
         string RegionName { get; }
@@ -56,7 +56,7 @@ namespace DevExpress.Mvvm {
 #endregion
 
 #region IViewInjectionManager
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IViewInjectionManager {
         [EditorBrowsable(EditorBrowsableState.Never)]
         void RegisterService(IViewInjectionService service);
@@ -106,7 +106,7 @@ namespace DevExpress.Mvvm {
 #endregion
 
 #region ViewInjectionManager
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public enum ViewInjectionMode { Default, Persistent }
     public class ViewInjectionManager : IViewInjectionManager {
         #region Static

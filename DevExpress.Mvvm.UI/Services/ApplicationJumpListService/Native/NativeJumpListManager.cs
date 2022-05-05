@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -6,7 +6,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Windows.Shell;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface INativeJumpList : IList<JumpItem>, INotifyCollectionChanged {
         bool ShowFrequentCategory { get; set; }
         bool ShowRecentCategory { get; set; }

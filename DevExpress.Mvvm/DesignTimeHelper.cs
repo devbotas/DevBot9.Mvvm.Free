@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class DesignTimeHelper {
 #if DEBUG
         public static int? DesignTimeObjectsCount;

@@ -1,6 +1,6 @@
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
 using System;
 using System.Collections.Specialized;
 using System.Reflection;
@@ -10,7 +10,7 @@ using System.Windows.Input;
 using System.Windows.Markup;
 using System.Linq;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [ContentProperty("Commands")]
     public class CompositeCommandBehavior : Behavior<DependencyObject> {
         #region Inner classes

@@ -1,8 +1,8 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.ComponentModel;
 using System.Windows;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IMessageButtonLocalizer {
         string Localize(MessageResult button);
     }

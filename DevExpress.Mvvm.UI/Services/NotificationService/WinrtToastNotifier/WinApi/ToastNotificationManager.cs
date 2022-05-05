@@ -1,9 +1,9 @@
-using DevExpress.Internal.WinApi.Windows.UI.Notifications;
-using DevExpress.Utils;
+using DevBot9.Internal.WinApi.Windows.UI.Notifications;
+using DevBot9.Utils;
 using System;
 using System.Security;
 
-namespace DevExpress.Internal.WinApi {
+namespace DevBot9.Internal.WinApi {
     [CLSCompliant(false)]
     public interface IToastNotificationAdapter {
         IToastNotification Create(IPredefinedToastNotificationInfo info);

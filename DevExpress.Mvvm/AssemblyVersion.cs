@@ -1,5 +1,5 @@
 
-namespace DevExpress.Internal {
+namespace DevBot9.Internal {
 	internal static class AssemblyInfo {
     public const string AssemblyCopyright = "Copyright © 2000-2021 Developer Express Inc.";
     public const string AssemblyCompany = "Developer Express Inc.";
@@ -47,7 +47,7 @@ namespace DevExpress.Internal {
     public const string SRAssemblyXpfDocumentViewerCore = "DevExpress.Xpf.DocumentViewer" + VSuffix + ".Core";
     public const string SRAssemblyXpfMvvm = "DevExpress.Mvvm" + VSuffix;
     public const string SRAssemblyXpfMvvmFree = "DevExpress.Mvvm";
-    public const string SRAssemblyXpfMvvmUIFree = "DevExpress.Mvvm.UI";
+    public const string SRAssemblyXpfMvvmUIFree = "DevBot9.Mvvm.UI";
     public const string SRAssemblyXpfRibbon = "DevExpress.Xpf.Ribbon" + VSuffix;
     public const string SRAssemblyXpfNavBar = "DevExpress.Xpf.NavBar" + VSuffix;
     public const string SRAssemblyXpfCoreExtensions = "DevExpress.Xpf.Core" + VSuffix + ".Extensions";

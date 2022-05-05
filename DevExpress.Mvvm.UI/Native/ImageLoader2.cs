@@ -9,7 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class ImageLoader2 {
         static Dictionary<Uri, WeakReference> cache = new Dictionary<Uri, WeakReference>();
         const int MaxCacheSize = 320;

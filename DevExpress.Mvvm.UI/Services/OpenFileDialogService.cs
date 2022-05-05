@@ -6,10 +6,10 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.ComponentModel;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface IOpenFileDialog : IFileDialog {
         bool Multiselect { get; set; }
         string SafeFileName { get; }
@@ -19,7 +19,7 @@ namespace DevExpress.Mvvm.UI.Native {
     }
 }
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [Browsable(true), EditorBrowsable(EditorBrowsableState.Always)]
     [TargetType(typeof(System.Windows.Controls.UserControl)), TargetType(typeof(Window))]
     public class OpenFileDialogService : FileDialogServiceBase, IOpenFileDialogService {

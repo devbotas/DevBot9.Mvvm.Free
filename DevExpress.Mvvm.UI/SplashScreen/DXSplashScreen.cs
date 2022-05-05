@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Windows.Interop;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public static class DXSplashScreen {
         [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
         public static bool UseLegacyLocationLogic { get; set; }

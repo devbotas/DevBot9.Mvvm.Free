@@ -1,5 +1,5 @@
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     static class DXSplashScreenExceptions {
         public const string Exception1 = "SplashScreen has been displayed. Only one splash screen can be displayed simultaneously.";
         public const string Exception2 = "Incorrect SplashScreen Type.";

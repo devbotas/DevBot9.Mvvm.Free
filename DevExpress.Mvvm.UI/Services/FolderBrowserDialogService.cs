@@ -1,5 +1,5 @@
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Windows.Input;
 
 using DxDialogResult = System.Windows.Forms.DialogResult;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface IFolderBrowserDialog : ICommonDialog {
         string Description { get; set; }
         Environment.SpecialFolder RootFolder { get; set; }
@@ -20,7 +20,7 @@ namespace DevExpress.Mvvm.UI.Native {
     }
 }
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [Browsable(true), EditorBrowsable(EditorBrowsableState.Always)]
     [TargetType(typeof(System.Windows.Controls.UserControl)), TargetType(typeof(Window))]
     public class FolderBrowserDialogService : ServiceBase, IFolderBrowserDialogService {

@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.DataAnnotations;
+using DevBot9.Mvvm.DataAnnotations;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Security;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     [SecuritySafeCritical]
     public static class DataAnnotationsAttributeHelper {
         internal static bool HasRequiredAttribute(MemberInfo member) {

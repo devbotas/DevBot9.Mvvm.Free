@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shell;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface ITaskbarButtonService {
         double ProgressValue { get; set; }
         TaskbarItemProgressState ProgressState { get; set; }

@@ -1,5 +1,5 @@
-using DevExpress.Mvvm.DataAnnotations;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.DataAnnotations;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class EnumSourceHelperCore {
         public static readonly string ValueMemberName = BindableBase.GetPropertyName(() => new EnumMemberInfo(null, null, null, null).Id);
         public static readonly string DisplayMemberName = BindableBase.GetPropertyName(() => new EnumMemberInfo(null, null, null, null).Name);
@@ -93,7 +93,7 @@ namespace DevExpress.Mvvm.Native {
         }
     }
 }
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class EnumSourceHelper {
         public static IEnumerable<EnumMemberInfo> GetEnumSource(Type enumType, bool useUnderlyingEnumValue = true, IValueConverter nameConverter = null, bool splitNames = false, 
             EnumMembersSortMode sortMode = EnumMembersSortMode.Default, Func<string, ImageSource> getSvgImageSource = null, Size? imageSize = null) {

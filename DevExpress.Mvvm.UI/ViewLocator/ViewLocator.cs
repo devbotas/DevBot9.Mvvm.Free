@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Windows;
 using System;
-using DevExpress.Mvvm.POCO;
+using DevBot9.Mvvm.POCO;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class ViewLocator : LocatorBase, IViewLocator {
         public static IViewLocator Default { get { return _default ?? Instance; } set { _default = value; } }
         static IViewLocator _default = null;

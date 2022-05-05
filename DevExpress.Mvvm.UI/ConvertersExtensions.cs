@@ -2,7 +2,7 @@ using System;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class ReflectionConverterExtension : MarkupExtension {
         class TypeUnsetValue { }
         Type convertBackMethodOwner = typeof(TypeUnsetValue);

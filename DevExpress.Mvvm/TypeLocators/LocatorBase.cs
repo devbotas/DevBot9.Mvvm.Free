@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public abstract class LocatorBase {
         static Assembly entryAssembly;
         protected static Assembly EntryAssembly {

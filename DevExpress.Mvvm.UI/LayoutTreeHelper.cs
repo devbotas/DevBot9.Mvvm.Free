@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Windows;
 using System.Linq;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Windows.Media;
 using System.Windows.Media.Media3D;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public static class LayoutTreeHelper {
         internal static DependencyObject GetParent(DependencyObject element) {
             if(element is Visual || element is Visual3D) 

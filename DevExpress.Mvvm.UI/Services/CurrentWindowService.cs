@@ -1,16 +1,16 @@
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Interactivity;
 using System.Windows;
 using System.Windows.Controls;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows.Input;
 using System.ComponentModel;
-using DevExpress.Mvvm.UI;
-using DevExpress.Mvvm;
+using DevBot9.Mvvm.UI;
+using DevBot9.Mvvm;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetTypeAttribute(typeof(UserControl))]
     [TargetTypeAttribute(typeof(Window))]
     public class CurrentWindowService : WindowAwareServiceBase, ICurrentWindowService {

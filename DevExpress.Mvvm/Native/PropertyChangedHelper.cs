@@ -2,5 +2,5 @@ using System;
 using System.ComponentModel;
 using System.Linq.Expressions;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
 }

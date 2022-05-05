@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using DevExpress.Internal.WinApi.Windows.UI.Notifications;
+using DevBot9.Internal.WinApi.Windows.UI.Notifications;
 
-namespace DevExpress.Internal {
+namespace DevBot9.Internal {
     public interface IPredefinedToastNotification {
         Task<ToastNotificationResultInternal> ShowAsync();
         void Hide();

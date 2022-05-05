@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public interface IModule {
         string Key { get; }
         Func<object> ViewModelFactory { get; }

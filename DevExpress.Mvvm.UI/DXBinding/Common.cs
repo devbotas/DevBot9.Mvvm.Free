@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace DevExpress.DXBinding.Native {
+namespace DevBot9.DXBinding.Native {
     interface IParserErrorHandler {
         bool HasError { get; }
         void Error(int pos, string msg);

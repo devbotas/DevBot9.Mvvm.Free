@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 
-namespace DevExpress.Internal {
+namespace DevBot9.Internal {
     public class ToastNotificationFailedException : Exception {
         public ToastNotificationFailedException(Exception inner, int errorCode)
             : base(null, inner) {

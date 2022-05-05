@@ -4,7 +4,7 @@ using System.IO;
 using System.Collections;
 using System.Linq;
 using System.Text;
-namespace DevExpress.DXBinding.Native {
+namespace DevBot9.DXBinding.Native {
 class Scanner : ScannerBase {
 	const int maxT = 72;
 	const int noSym = 72;

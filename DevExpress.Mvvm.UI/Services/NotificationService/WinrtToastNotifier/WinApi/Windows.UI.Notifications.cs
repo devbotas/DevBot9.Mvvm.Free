@@ -1,6 +1,6 @@
-using DevExpress.Data;
-using DevExpress.Internal.WinApi;
-using DevExpress.Internal.WinApi.Window.Data.Xml.Dom;
+using DevBot9.Data;
+using DevBot9.Internal.WinApi;
+using DevBot9.Internal.WinApi.Window.Data.Xml.Dom;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace DevExpress.Internal.WinApi.Windows.UI.Notifications {
+namespace DevBot9.Internal.WinApi.Windows.UI.Notifications {
     public enum HResult {
         NoInterface = -2147467262,
         Fail = -2147467259,

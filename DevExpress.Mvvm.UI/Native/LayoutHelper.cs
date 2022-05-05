@@ -4,12 +4,12 @@ using System.Windows;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using DevExpress.Mvvm.UI;
+using DevBot9.Mvvm.UI;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Documents;
 using System.Windows.Media;
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class LayoutHelper {
 
         public static UIElement GetTopContainerWithAdornerLayer(UIElement element) {

@@ -1,11 +1,11 @@
-using DevExpress.Mvvm;
+using DevBot9.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class MessageBoxServiceExtensions {
         public static MessageResult ShowMessage(this IMessageBoxService service, string messageBoxText, string caption, MessageButton button, MessageIcon icon, MessageResult defaultResult) {
             VerifyService(service);

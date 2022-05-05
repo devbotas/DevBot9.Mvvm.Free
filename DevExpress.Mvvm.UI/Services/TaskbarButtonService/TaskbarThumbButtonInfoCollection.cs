@@ -2,11 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Windows.Shell;
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Utils;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Utils;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class TaskbarThumbButtonInfoCollection : IList<TaskbarThumbButtonInfo>, IList {
         public TaskbarThumbButtonInfoCollection() : this(new ThumbButtonInfoCollection()) { }
         public TaskbarThumbButtonInfoCollection(ThumbButtonInfoCollection collection) {

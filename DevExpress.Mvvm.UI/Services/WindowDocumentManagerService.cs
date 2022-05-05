@@ -1,6 +1,6 @@
-using DevExpress.Mvvm;
-using DevExpress.Mvvm.UI;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm;
+using DevBot9.Mvvm.UI;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +10,11 @@ using System.Windows.Data;
 using System.ComponentModel;
 using System.Windows.Controls;
 using System.Collections.ObjectModel;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Native;
 using WindowBase = System.Windows.Window;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetTypeAttribute(typeof(UserControl))]
     [TargetTypeAttribute(typeof(Window))]
     public class WindowedDocumentUIService : DocumentUIServiceBase, IDocumentManagerService, IDocumentOwner {

@@ -1,8 +1,8 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     public abstract class MemberMetadataBuilderBase<T, TBuilder, TParent> : 
         IPropertyMetadataBuilder, IAttributeBuilderInternal, IAttributeBuilderInternal<TBuilder>
         where TBuilder : MemberMetadataBuilderBase<T, TBuilder, TParent>

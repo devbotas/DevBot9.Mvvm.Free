@@ -1,7 +1,7 @@
-using DevExpress.DXBinding.Native;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI;
-using DevExpress.Xpf.Core.Native;
+using DevBot9.DXBinding.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI;
+using DevBot9.Xpf.Core.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +15,7 @@ using System.Windows.Input;
 using System.Windows.Markup;
 using System.Xaml;
 
-namespace DevExpress.Xpf.DXBinding {
+namespace DevBot9.Xpf.DXBinding {
     public abstract class DXMarkupExtensionBase : MarkupExtension {
         internal static bool? IsInDesingModeCore = null;
         protected static bool IsInDesignMode() {
@@ -833,7 +833,7 @@ namespace DevExpress.Xpf.DXBinding {
                 }
             }
             public Delegate GetEventHandler() {
-                var eventSubscriber = new DevExpress.Mvvm.UI.Interactivity.Internal.EventTriggerEventSubscriber(OnEvent);
+                var eventSubscriber = new DevBot9.Mvvm.UI.Interactivity.Internal.EventTriggerEventSubscriber(OnEvent);
                 return eventSubscriber.CreateEventHandler(eventHandlerType);
             }
             object[] GetBoundEventData() {
@@ -939,6 +939,6 @@ namespace DevExpress.Xpf.DXBinding {
         }
     }
 }
-namespace DevExpress.Xpf.Core.Native {
+namespace DevBot9.Xpf.Core.Native {
     public interface ITypedStyle { }
 }

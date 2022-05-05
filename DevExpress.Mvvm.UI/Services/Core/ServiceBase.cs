@@ -1,13 +1,13 @@
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity;
 using System.Windows;
 using System;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows.Data;
 using System.Windows.Markup;
 using System.Windows.Navigation;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [RuntimeNameProperty("Name")]
     public abstract class ServiceBaseGeneric<T> : Behavior<T> where T : DependencyObject {
         [IgnoreDependencyPropertiesConsistencyCheckerAttribute]

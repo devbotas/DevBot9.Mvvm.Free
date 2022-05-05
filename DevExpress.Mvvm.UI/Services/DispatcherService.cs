@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity;
 using System;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetType(typeof(UserControl)), TargetType(typeof(Window))]
     public class DispatcherService : ServiceBase, IDispatcherService {
         public static readonly DependencyProperty DelayProperty =

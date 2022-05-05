@@ -1,11 +1,11 @@
 using System;
 using System.Windows;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
 
 using System.Windows.Data;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 
-namespace DevExpress.Mvvm.UI.Interactivity {
+namespace DevBot9.Mvvm.UI.Interactivity {
     public abstract class TriggerBase : Behavior {
         internal TriggerBase(Type type)
             : base(type) {

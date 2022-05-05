@@ -5,10 +5,10 @@ using System.Security;
 using System.ServiceModel;
 using System.Threading;
 using System.Windows.Threading;
-using DevExpress.Utils;
-using DevExpress.Mvvm.Native;
+using DevBot9.Utils;
+using DevBot9.Mvvm.Native;
 #if !DXCORE3
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface IJumpAction {
         string CommandId { get; }
         string ApplicationPath { get; }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Threading;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public class SLWeakReferenceActionInvoker<T> : StrongReferenceActionInvoker<T> {
         public SLWeakReferenceActionInvoker(object target, Action<T> action)
             : base(target, action) {

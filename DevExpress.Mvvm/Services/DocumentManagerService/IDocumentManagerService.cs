@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public delegate void ActiveDocumentChangedEventHandler(object sender, ActiveDocumentChangedEventArgs e);
     public class ActiveDocumentChangedEventArgs : EventArgs {
         public IDocument OldDocument { get; private set; }

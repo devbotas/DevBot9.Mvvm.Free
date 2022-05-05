@@ -1,5 +1,5 @@
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.ModuleInjection;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.ModuleInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public sealed class ViewInjectionService : ServiceBase, IViewInjectionService {
         #region Static
         const string Exception = "A view model with the same key already exists in the {0} region.";
@@ -64,8 +64,8 @@ namespace DevExpress.Mvvm.UI {
         }
         protected override bool AllowAttachInDesignMode { get { return false; } }
 
-        IViewInjectionManager ActualViewInjectionManager { get { return ViewInjectionManager ?? DevExpress.Mvvm.ViewInjectionManager.Default; } }
-        IStrategyManager ActualStrategyManager { get { return StrategyManager ?? DevExpress.Mvvm.UI.ModuleInjection.StrategyManager.Default; } }
+        IViewInjectionManager ActualViewInjectionManager { get { return ViewInjectionManager ?? DevBot9.Mvvm.ViewInjectionManager.Default; } }
+        IStrategyManager ActualStrategyManager { get { return StrategyManager ?? DevBot9.Mvvm.UI.ModuleInjection.StrategyManager.Default; } }
         [EditorBrowsable(EditorBrowsableState.Never)]
         public IStrategy Strategy { get { return strategy ?? (strategy = ActualStrategyManager.CreateStrategy(AssociatedObject)); } }
         IStrategy strategy = null;
@@ -117,7 +117,7 @@ namespace DevExpress.Mvvm.UI {
                 throw new InvalidOperationException(string.Format(Exception, string.IsNullOrEmpty(RegionName) ? "ViewInjectionService" : RegionName));
             }
             if(viewModels.ContainsKey(key)) return;
-            Strategy.Inject(viewModel, viewType ?? (ViewLocator ?? DevExpress.Mvvm.UI.ViewLocator.Default).ResolveViewType(viewName));
+            Strategy.Inject(viewModel, viewType ?? (ViewLocator ?? DevBot9.Mvvm.UI.ViewLocator.Default).ResolveViewType(viewName));
             viewModels.Add(key, viewModel);
         }
         bool IViewInjectionService.Remove(object viewModel) {

@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class SplashScreenServiceExtensions {
         public static void ShowSplashScreen(this ISplashScreenService service) {
             VerifyService(service);

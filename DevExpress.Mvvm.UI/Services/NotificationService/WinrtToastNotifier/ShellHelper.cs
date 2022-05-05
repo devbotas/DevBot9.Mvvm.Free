@@ -2,9 +2,9 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using Microsoft.Win32;
-using DevExpress.Internal.WinApi;
+using DevBot9.Internal.WinApi;
 
-namespace DevExpress.Data {
+namespace DevBot9.Data {
     public static partial class ShellHelper {
         public static void TryCreateShortcut(string applicationId, string name, string iconPath = null) {
             string shortcutPath = GetShortcutPath(name);

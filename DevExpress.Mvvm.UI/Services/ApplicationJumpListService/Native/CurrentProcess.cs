@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public interface ICurrentProcess {
         string ExecutablePath { get; }
         string ApplicationId { get; }

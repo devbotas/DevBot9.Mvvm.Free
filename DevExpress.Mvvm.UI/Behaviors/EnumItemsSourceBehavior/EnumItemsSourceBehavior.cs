@@ -1,6 +1,6 @@
-using DevExpress.Internal;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Internal;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,9 +11,9 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetType(typeof(ItemsControl))]
     public class EnumItemsSourceBehavior : Behavior<FrameworkElement> {
         public EnumItemsSourceBehavior() {

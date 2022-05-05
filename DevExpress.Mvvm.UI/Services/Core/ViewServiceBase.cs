@@ -1,10 +1,10 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows;
 using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public abstract class ViewServiceBase : ServiceBase {
         public IViewLocator ViewLocator {
             get { return (IViewLocator)GetValue(ViewLocatorProperty); }

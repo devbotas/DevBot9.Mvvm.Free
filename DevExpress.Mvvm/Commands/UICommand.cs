@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public enum DialogButtonAlignment {
         Right,
         Center,

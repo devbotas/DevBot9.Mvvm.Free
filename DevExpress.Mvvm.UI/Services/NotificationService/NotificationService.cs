@@ -1,9 +1,9 @@
-using DevExpress.Data;
-using DevExpress.Internal;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Data;
+using DevBot9.Internal;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.UI.Native;
 using System;
 using System.Threading.Tasks;
 using System.Windows;
@@ -11,7 +11,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public enum NotificationSetting {
         Enabled = 0,
         DisabledForApplication = 1,
@@ -251,7 +251,7 @@ namespace DevExpress.Mvvm.UI {
             set { SetValue(PredefinedNotificationDurationProperty, value); }
         }
         public bool AreWin8NotificationsAvailable {
-            get { return DevExpress.Internal.WinApi.ToastNotificationManager.AreToastNotificationsSupported; }
+            get { return DevBot9.Internal.WinApi.ToastNotificationManager.AreToastNotificationsSupported; }
         }
         public INotification CreateCustomNotification(object viewModel) {
             var window = GetApplicationWindow();
@@ -292,8 +292,8 @@ namespace DevExpress.Mvvm.UI {
                 var size = new Size(width * dpi.X, width * dpi.Y);
                 content.SetImage(ImageLoader2.ImageToByteArray(image, GetBaseUri, size));
             }
-            content.SetDuration((DevExpress.Internal.NotificationDuration)PredefinedNotificationDuration);
-            content.SetSound((DevExpress.Internal.PredefinedSound)Sound);
+            content.SetDuration((DevBot9.Internal.NotificationDuration)PredefinedNotificationDuration);
+            content.SetSound((DevBot9.Internal.PredefinedSound)Sound);
             return new MvvmPredefinedNotification { Notification = PredefinedNotificationsFactory.CreateToastNotification(content) };
         }
     }

@@ -1,7 +1,7 @@
-using DevExpress.Internal;
+using DevBot9.Internal;
 using System.Threading.Tasks;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     class WpfPredefinedToastNotification : IPredefinedToastNotification {
         WpfPredefinedToastNotificationContent content;
         CustomNotifier notifier;

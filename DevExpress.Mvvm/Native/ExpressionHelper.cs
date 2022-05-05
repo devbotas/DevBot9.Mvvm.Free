@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public
     static class ExpressionHelper {
         internal static MethodInfo GetArgumentMethodStrict<T>(Expression<Action<T>> expression) {

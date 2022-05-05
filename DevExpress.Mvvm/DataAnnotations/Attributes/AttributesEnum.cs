@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     [AttributeUsage(AttributeTargets.Enum, AllowMultiple = false)]
     public sealed class EnumMetadataTypeAttribute : Attribute {
         public Type MetadataClassType { get; private set; }

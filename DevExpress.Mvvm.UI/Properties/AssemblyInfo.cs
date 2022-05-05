@@ -6,14 +6,14 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System;
 using System.Security;
-using DevExpress.Internal;
-using DevExpress.Mvvm.Native;
+using DevBot9.Internal;
+using DevBot9.Mvvm.Native;
 
-[assembly: AssemblyTitle("DevExpress.Mvvm.UI")]
+[assembly: AssemblyTitle("DevBot9.Mvvm.UI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany(AssemblyInfo.AssemblyCompany)]
-[assembly: AssemblyProduct("DevExpress.Mvvm.UI")]
+[assembly: AssemblyProduct("DevBot9.Mvvm.UI")]
 [assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

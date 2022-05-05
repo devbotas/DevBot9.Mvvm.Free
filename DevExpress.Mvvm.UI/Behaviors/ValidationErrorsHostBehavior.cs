@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetType(typeof(FrameworkElement))]
     public class ValidationErrorsHostBehavior : Behavior<FrameworkElement> {
         #region Dependency Properties

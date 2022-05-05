@@ -1,9 +1,9 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.ComponentModel;
 using System.Linq.Expressions;
 
-namespace DevExpress.Mvvm.DataAnnotations {
+namespace DevBot9.Mvvm.DataAnnotations {
     public abstract class PropertyMetadataBuilderGeneric<T, TProperty, TBuilder> : 
         PropertyMetadataBuilderBase<T, TProperty, TBuilder>
         where TBuilder : PropertyMetadataBuilderGeneric<T, TProperty, TBuilder> {

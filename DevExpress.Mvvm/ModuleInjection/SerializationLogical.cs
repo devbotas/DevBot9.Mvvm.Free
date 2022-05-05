@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface ISupportState<T> {
         T SaveState();
         void RestoreState(T state);
@@ -33,7 +33,7 @@ namespace DevExpress.Mvvm {
         }
     }
 }
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public static class ISupportStateHelper {
         public static Type GetStateType(Type vmType) {
             Type iSupportSerialization = GetISupportStateImplementation(vmType);

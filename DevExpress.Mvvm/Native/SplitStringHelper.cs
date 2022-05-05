@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     internal static class SplitStringHelper {
         static Regex reg1 = new Regex("(\\p{Ll})(\\p{Lu})", RegexOptions.Compiled);
         static Regex reg2 = new Regex("(\\p{Lu}{2})(\\p{Lu}\\p{Ll}{2})", RegexOptions.Compiled);

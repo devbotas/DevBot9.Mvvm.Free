@@ -1,11 +1,11 @@
 using System;
 using System.Reflection;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI.Interactivity.Internal {
+namespace DevBot9.Mvvm.UI.Interactivity.Internal {
     public static class InteractionHelper {
         public static readonly DependencyProperty EnableBehaviorsInDesignTimeProperty =
             DependencyProperty.RegisterAttached("EnableBehaviorsInDesignTime", typeof(bool), typeof(InteractionHelper),

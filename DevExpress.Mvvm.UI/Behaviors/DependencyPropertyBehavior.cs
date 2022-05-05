@@ -1,12 +1,12 @@
-using DevExpress.Mvvm.UI.Interactivity;
-using DevExpress.Mvvm.UI.Interactivity.Internal;
+using DevBot9.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity.Internal;
 using System;
 using System.Linq;
 using System.Reflection;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class DependencyPropertyBehavior : Behavior<DependencyObject> {
         const BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Public;
 

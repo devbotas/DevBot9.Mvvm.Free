@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     [Serializable]
     public class SerializableState {
         [XmlIgnore]

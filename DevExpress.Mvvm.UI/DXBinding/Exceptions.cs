@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DevExpress.DXBinding.Native {
+namespace DevBot9.DXBinding.Native {
     public static class ErrorHelper {
         static string NameDXBinding { get { return "DXBinding"; } }
         static string NameDXBindingExpr { get { return "Expr"; } }

@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace DevExpress.Internal.WinApi.Window.Data.Xml.Dom {
+namespace DevBot9.Internal.WinApi.Window.Data.Xml.Dom {
     [CLSCompliant(false)]
     [ComImport]
     [Guid("F7F3A506-1E87-42D6-BCFB-B8C809FA5494")]

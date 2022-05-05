@@ -1,10 +1,10 @@
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 using System;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DevExpress.Mvvm.UI.ModuleInjection {
+namespace DevBot9.Mvvm.UI.ModuleInjection {
     public abstract class WindowStrategyBase<T> : BaseStrategy<T>, IWindowStrategy where T : DependencyObject {
         public object ViewModel { get; private set; }
         public MessageBoxResult? Result { get; private set; }

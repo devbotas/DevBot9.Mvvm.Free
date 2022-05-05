@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DevExpress.Mvvm.Internal {
+namespace DevBot9.Mvvm.Internal {
     public class FuzzyKeyValuePair<TKey, TValue> {
         public FuzzyKeyValuePair(TKey key, TValue value, bool useIncludeCondition) {
             Key = key;

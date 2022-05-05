@@ -4,9 +4,9 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Shell;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class TaskbarThumbButtonInfoWrapper {
         class ThumbButtonInfoCommand : ICommand {
             public ThumbButtonInfoCommand(TaskbarThumbButtonInfo taskbarThumbButtonInfo) {

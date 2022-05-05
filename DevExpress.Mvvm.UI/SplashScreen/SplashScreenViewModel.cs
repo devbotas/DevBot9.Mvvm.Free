@@ -1,7 +1,7 @@
-using DevExpress.Mvvm;
+using DevBot9.Mvvm;
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public class SplashScreenViewModel : ViewModelBase, ISupportSplashScreen {
         public const double ProgressDefaultValue = 0d;
         public const double MaxProgressDefaultValue = 100d;

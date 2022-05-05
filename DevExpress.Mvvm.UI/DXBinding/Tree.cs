@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DevExpress.DXBinding.Native {
+namespace DevBot9.DXBinding.Native {
     class NRoot {
         public NBase Expr { get { return Exprs.First(); } }
         public List<NBase> Exprs { get; set; }

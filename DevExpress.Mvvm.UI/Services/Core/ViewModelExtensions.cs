@@ -1,9 +1,9 @@
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
 using System.Linq;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public static class ViewModelExtensions {
         public static readonly object NotSetParameter = new object();
         public static readonly DependencyProperty ParameterProperty =

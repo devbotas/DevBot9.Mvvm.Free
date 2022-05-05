@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class ObjectPropertyHelper {
         public static PropertyInfo GetPropertyInfoSetter(object obj, string propName) {
             return GetPropertyInfo(obj, propName, BindingFlags.Public | BindingFlags.SetProperty | BindingFlags.Instance);

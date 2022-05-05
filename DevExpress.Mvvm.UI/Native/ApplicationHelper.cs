@@ -8,7 +8,7 @@ using System.Windows.Resources;
 using System.Xml.Linq;
 using System.Windows.Interop;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public static class StreamHelper {
         public static string ToStringWithDispose(this Stream stream) {
             using(stream) {

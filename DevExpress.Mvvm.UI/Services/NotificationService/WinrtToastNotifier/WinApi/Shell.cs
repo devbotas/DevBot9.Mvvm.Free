@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 
-namespace DevExpress.Internal.WinApi {
+namespace DevBot9.Internal.WinApi {
     enum STGM : long {
         STGM_READ = 0x00000000L,
         STGM_WRITE = 0x00000001L,

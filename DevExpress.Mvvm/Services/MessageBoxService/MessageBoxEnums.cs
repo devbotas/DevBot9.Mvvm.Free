@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Windows;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public enum MessageResult {
         None, OK, Cancel, Yes, No,
     }

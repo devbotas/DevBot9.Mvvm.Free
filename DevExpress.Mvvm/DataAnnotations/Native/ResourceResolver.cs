@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Resources;
 using System.Security;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     [SecuritySafeCritical]
     public class DataAnnotationsResourcesResolver {
         static ResourceManager annotationsResourceManager;

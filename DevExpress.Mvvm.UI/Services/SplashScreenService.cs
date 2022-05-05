@@ -1,15 +1,15 @@
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity;
 using System;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Linq;
 using System.Collections.Generic;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Native;
 using System.Windows.Threading;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetTypeAttribute(typeof(UserControl))]
     [TargetTypeAttribute(typeof(Window))]
     public class DXSplashScreenService : ViewServiceBase, ISplashScreenService, DXSplashScreen.ISplashScreenStateAware {

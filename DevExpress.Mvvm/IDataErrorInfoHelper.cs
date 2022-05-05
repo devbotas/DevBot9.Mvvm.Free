@@ -1,12 +1,12 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Reflection;
 using System.Linq;
-using DevExpress.Mvvm.POCO;
+using DevBot9.Mvvm.POCO;
 using System.ComponentModel;
 using System.Linq.Expressions;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class IDataErrorInfoHelper {
         public static bool HasErrors<TOwner>(TOwner owner, int deep = 2, params Expression<Func<TOwner, object>>[] excludedProperties) {
             var exProperties = excludedProperties.Select(x => ExpressionHelper.GetPropertyName(x)).ToList();

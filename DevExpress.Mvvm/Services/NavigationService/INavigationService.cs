@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface INavigationService {
         void ClearCache();
         void ClearNavigationHistory();

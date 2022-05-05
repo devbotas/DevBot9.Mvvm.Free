@@ -1,10 +1,10 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     class DefaultServiceContainer : ServiceContainer {
         public DefaultServiceContainer() : base(null) { }
         protected virtual ResourceDictionary GetApplicationResources() {

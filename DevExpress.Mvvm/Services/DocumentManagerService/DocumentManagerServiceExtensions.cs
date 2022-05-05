@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public static class DocumentManagerServiceExtensions {
         [Obsolete("Use other extension methods.")]
         [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]

@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
-namespace DevExpress.Mvvm.UI.ModuleInjection {
+namespace DevBot9.Mvvm.UI.ModuleInjection {
     public abstract class StrategyBase<T> : BaseStrategy<T>, IStrategy where T : DependencyObject {
         protected ObservableCollection<object> ViewModels { get; private set; }
         protected object SelectedViewModel {

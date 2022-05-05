@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.UI.Interactivity;
 using System;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     [TargetTypeAttribute(typeof(Window)), Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
     public class WindowFadeAnimationBehavior : Behavior<FrameworkElement> {
         public static readonly DependencyProperty EnableAnimationProperty =

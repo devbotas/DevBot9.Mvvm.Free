@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Security.Cryptography;
 using System.Windows.Media;
-using DevExpress.Mvvm.UI.Native;
-using DevExpress.Utils;
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.UI.Native;
+using DevBot9.Utils;
+using DevBot9.Mvvm.Native;
 using System.Windows;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public interface IIconStorage {
         bool TryStoreIconToFile(ImageSource icon, string storageFolder, out string iconID, out string iconPath);
     }

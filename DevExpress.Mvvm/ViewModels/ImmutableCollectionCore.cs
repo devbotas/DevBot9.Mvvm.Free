@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public abstract class ImmutableCollectionCore<T, TCollection> : ReadOnlyCollection<T> where TCollection : ReadOnlyCollection<T> {
         protected ImmutableCollectionCore()
             : base(new List<T>()) { }

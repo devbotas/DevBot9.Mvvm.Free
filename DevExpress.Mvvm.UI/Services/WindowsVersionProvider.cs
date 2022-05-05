@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace DevExpress.Utils {
+namespace DevBot9.Utils {
     class WindowsVersionInfo {
         public int CurrentBuild { get; set; }
         public int CurrentMajorVersionNumber { get; set; }

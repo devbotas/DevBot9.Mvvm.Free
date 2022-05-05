@@ -1,17 +1,17 @@
 using System;
 using System.Reflection;
-using DevExpress.Mvvm.UI;
+using DevBot9.Mvvm.UI;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
     public interface IViewLocator {
         object ResolveView(string name);
         Type ResolveViewType(string name);
         string GetViewTypeName(Type type);
     }
 }
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     static class ViewLocatorHelper {
-        const string ViewLocatorTypeName = "DevExpress.Mvvm.UI.ViewLocator";
+        const string ViewLocatorTypeName = "DevBot9.Mvvm.UI.ViewLocator";
         static PropertyInfo ViewLocatorDefaultProperty;
         public static IViewLocator Default {
             get {

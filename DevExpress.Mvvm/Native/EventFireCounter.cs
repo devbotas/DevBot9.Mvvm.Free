@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Windows.Input;
 
-namespace DevExpress.Mvvm.Native {
+namespace DevBot9.Mvvm.Native {
     public class EventFireCounter<TObject, TEventArgs> where TEventArgs : EventArgs {
         readonly Action<EventHandler> unsubscribe;
         protected readonly EventHandler handler;

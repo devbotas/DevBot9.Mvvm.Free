@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Controls;
 using System.Windows;
-using DevExpress.Mvvm.UI.Native;
+using DevBot9.Mvvm.UI.Native;
 
-namespace DevExpress.Mvvm.UI.Interactivity {
+namespace DevBot9.Mvvm.UI.Interactivity {
     public static class Interaction {
         #region Dependency Properties
         const string BehaviorsPropertyName = "BehaviorsInternal";

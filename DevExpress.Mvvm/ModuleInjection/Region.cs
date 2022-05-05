@@ -1,12 +1,12 @@
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
 
-namespace DevExpress.Mvvm.ModuleInjection {
+namespace DevBot9.Mvvm.ModuleInjection {
     public interface IRegion {
         string RegionName { get; }
         IEnumerable<object> ViewModels { get; }
@@ -24,7 +24,7 @@ namespace DevExpress.Mvvm.ModuleInjection {
         void ResetVisualState();
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     public interface IRegionImplementation : IRegion {
         IEnumerable<IUIRegion> UIRegions { get; }
         void RegisterUIRegion(IUIRegion region);
@@ -58,7 +58,7 @@ namespace DevExpress.Mvvm.ModuleInjection.Native {
         void SetResult(MessageBoxResult result);
     }
 }
-namespace DevExpress.Mvvm.ModuleInjection.Native {
+namespace DevBot9.Mvvm.ModuleInjection.Native {
     class WeakReferenceManager<T> where T : class {
         readonly List<WeakReference> serviceReferences;
 

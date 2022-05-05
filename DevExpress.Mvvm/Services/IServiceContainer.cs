@@ -1,11 +1,11 @@
-using DevExpress.Mvvm.Native;
+using DevBot9.Mvvm.Native;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public enum ServiceSearchMode { PreferLocal, LocalOnly, PreferParents }
     public interface IServiceContainer {
         void Clear();

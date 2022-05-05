@@ -1,7 +1,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class ToastTemplateSelector : DataTemplateSelector {
         public DataTemplate SimpleTemplate { get; set; }
         public DataTemplate OneLineHeaderTemplate { get; set; }

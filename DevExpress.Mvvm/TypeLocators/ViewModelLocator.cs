@@ -1,4 +1,4 @@
-using DevExpress.Mvvm.POCO;
+using DevBot9.Mvvm.POCO;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -6,7 +6,7 @@ using System.Windows;
 using System.Linq;
 using System.Globalization;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     public interface IViewModelLocator {
         object ResolveViewModel(string name);
         Type ResolveViewModelType(string name);

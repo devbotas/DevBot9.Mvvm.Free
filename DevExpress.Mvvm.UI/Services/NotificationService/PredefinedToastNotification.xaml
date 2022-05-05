@@ -2,8 +2,8 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
-    xmlns:dxmvvm="clr-namespace:DevExpress.Mvvm.UI"
-    xmlns:dxmvvmi="clr-namespace:DevExpress.Mvvm.UI.Native">
+    xmlns:dxmvvm="clr-namespace:DevBot9.Mvvm.UI"
+    xmlns:dxmvvmi="clr-namespace:DevBot9.Mvvm.UI.Native">
 
     <DataTemplate x:Key="DefaultCustomToastTemplate">
         <Border Background="#FC972E">

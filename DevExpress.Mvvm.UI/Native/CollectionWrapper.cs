@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace DevExpress.Mvvm.UI.Native {
+namespace DevBot9.Mvvm.UI.Native {
     public class EnumerableWrap<TItem> : IEnumerable<TItem> {
         readonly Func<object, object> convertMethod;
 

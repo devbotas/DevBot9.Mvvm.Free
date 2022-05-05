@@ -12,9 +12,9 @@ using System.Linq;
 
 using System.IO.Compression;
 
-using DevExpress.Internal;
+using DevBot9.Internal;
 
-namespace DevExpress.Utils {
+namespace DevBot9.Utils {
     public static class AssemblyHelper {
         static Dictionary<Assembly, string> defaultNamespaces = new Dictionary<Assembly, string>();
         const string PublicKeyTokenString = "PublicKeyToken";

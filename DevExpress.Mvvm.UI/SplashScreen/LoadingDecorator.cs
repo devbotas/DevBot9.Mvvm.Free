@@ -4,13 +4,13 @@ using System.Windows.Controls;
 using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Threading;
-using DevExpress.Mvvm.Native;
-using DevExpress.Mvvm.UI.Interactivity;
+using DevBot9.Mvvm.Native;
+using DevBot9.Mvvm.UI.Interactivity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Data;
 
-namespace DevExpress.Mvvm.UI {
+namespace DevBot9.Mvvm.UI {
 
     [ContentProperty("LoadingChild")]
     public class LoadingDecorator : Decorator {

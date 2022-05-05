@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace DevExpress.Mvvm {
+namespace DevBot9.Mvvm {
     [Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
     public interface IFileDialogServiceBase {
         bool CheckFileExists { get; set; }
