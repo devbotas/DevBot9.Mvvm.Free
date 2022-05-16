@@ -14,7 +14,7 @@ using DevBot9.Mvvm.Native;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("devbotas")]
 [assembly: AssemblyProduct("DevBot9.Mvvm.UI")]
-[assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]
+[assembly: AssemblyCopyright("Copyright © 2000-2021 Developer Express Inc., devbotas")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)]

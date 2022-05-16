@@ -21,6 +21,14 @@
     <IntermediateOutputPath>obj.NetCore.Desktop.Free</IntermediateOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>21.1.0</Version>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<Company></Company>
+	<Authors>Developer Express Inc., devbotas</Authors>
+	<Description>DevExpress MVVM Framework is a set of components that simplify the implementation of the Model-View-ViewModel pattern in WPF.</Description>
+	<Copyright>Copyright © 2000-2021 Developer Express Inc., devbotas</Copyright>
+	<PackageProjectUrl>https://github.com/devbotas/DevBot9.Mvvm.Free</PackageProjectUrl>
+	<PackageTags>wpf mvvm c# </PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

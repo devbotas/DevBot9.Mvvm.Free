@@ -14,7 +14,7 @@ using DevBot9.Internal;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("devbotas")]
 [assembly: AssemblyProduct("DevBot9.Mvvm")]
-[assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]
+[assembly: AssemblyCopyright("Copyright © 2000-2021 Developer Express Inc., devbotas")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: CLSCompliant(true)]
