@@ -220,8 +220,6 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevBot9.Mvvm">
-      <HintPath>..\Bin\NETCoreDesktop\DevBot9.Mvvm.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\DevExpress.Mvvm\DevExpress.Mvvm.Wpf.NetCore.Desktop.Free.csproj" />
   </ItemGroup>
 </Project>
