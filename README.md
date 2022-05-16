@@ -1,3 +1,16 @@
+# Why to fork this?
+The only reason I forked original DevExpress repository is because their free stuff conflicts with the paid stuff, and I needed to use both. I only changed non-functional side of the library:
+
+- Removed test and old .NET projects, leaving only .NET core projects;
+- Renamed all namespace and dependencies from "DevExpress.something.something" to "DevBot9.something.something". This is the change that makes this library compatible with DevExpress paid WPF MVVM libraries.
+- Produced a one NuGet per project, instead of a single NuGet.
+
+So in theory all the features should still work, but I haven't checked them all, so use with caution. 
+
+Original documentation is still perfectly valid.
+
+It's a pity I had to spend a few hours reinventing the wheel, but the library is nevertheless fastastic!
+
 # DevExpress.Mvvm.Free
 DevExpress MVVM Framework is a set of components that simplify the implementation of the Model-View-ViewModel pattern in WPF.
 
