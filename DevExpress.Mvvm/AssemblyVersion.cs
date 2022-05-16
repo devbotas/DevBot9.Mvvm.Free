@@ -45,8 +45,8 @@ namespace DevBot9.Internal {
     public const string SRAssemblyXpfCore = "DevExpress.Xpf.Core" + VSuffix;
     public const string SRAssemblyXpfPdfViewer = "DevExpress.Xpf.PdfViewer" + VSuffix;
     public const string SRAssemblyXpfDocumentViewerCore = "DevExpress.Xpf.DocumentViewer" + VSuffix + ".Core";
-    public const string SRAssemblyXpfMvvm = "DevExpress.Mvvm" + VSuffix;
-    public const string SRAssemblyXpfMvvmFree = "DevExpress.Mvvm";
+    public const string SRAssemblyXpfMvvm = "DevBot9.Mvvm" + VSuffix;
+    public const string SRAssemblyXpfMvvmFree = "DevBot9.Mvvm";
     public const string SRAssemblyXpfMvvmUIFree = "DevBot9.Mvvm.UI";
     public const string SRAssemblyXpfRibbon = "DevExpress.Xpf.Ribbon" + VSuffix;
     public const string SRAssemblyXpfNavBar = "DevExpress.Xpf.NavBar" + VSuffix;

@@ -12,7 +12,7 @@ using DevBot9.Mvvm.Native;
 [assembly: AssemblyTitle("DevBot9.Mvvm.UI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany(AssemblyInfo.AssemblyCompany)]
+[assembly: AssemblyCompany("devbotas")]
 [assembly: AssemblyProduct("DevBot9.Mvvm.UI")]
 [assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]
 [assembly: AssemblyTrademark("")]
@@ -33,7 +33,7 @@ using DevBot9.Mvvm.Native;
 [assembly: XmlnsPrefix(XmlNamespaceConstants.MvvmInternalNamespaceDefinition, XmlNamespaceConstants.MvvmIntenalPrefix)]
 [assembly: XmlnsDefinition(XmlNamespaceConstants.MvvmInternalNamespaceDefinition, XmlNamespaceConstants.MvvmInteractivityInternalNamespace)]
 
-[assembly: AssemblyVersion(AssemblyInfo.Version)]
-[assembly: AssemblyFileVersion(AssemblyInfo.FileVersion)]
+[assembly: AssemblyVersion("21.1.0")]
+[assembly: AssemblyFileVersion("21.1.0")]
 
 [assembly: InternalsVisibleTo(MvvmAssemblyHelper.TestsFreeAssemblyName)]

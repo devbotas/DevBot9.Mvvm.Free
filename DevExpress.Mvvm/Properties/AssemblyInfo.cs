@@ -9,11 +9,11 @@ using System.Security;
 using DevBot9.Mvvm.Native;
 using DevBot9.Internal;
 
-[assembly: AssemblyTitle("DevExpress.Mvvm")]
+[assembly: AssemblyTitle("DevBot9.Mvvm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany(AssemblyInfo.AssemblyCompany)]
-[assembly: AssemblyProduct("DevExpress.Mvvm")]
+[assembly: AssemblyCompany("devbotas")]
+[assembly: AssemblyProduct("DevBot9.Mvvm")]
 [assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -30,8 +30,8 @@ using DevBot9.Internal;
 [assembly: XmlnsDefinition(XmlNamespaceConstants.GanttNamespaceDefinition, XmlNamespaceConstants.GanttNamespace)]
 
 
-[assembly: AssemblyVersion(AssemblyInfo.Version)]
-[assembly: AssemblyFileVersion(AssemblyInfo.FileVersion)]
+[assembly: AssemblyVersion("21.1.0")]
+[assembly: AssemblyFileVersion("21.1.0")]
 
 [assembly: InternalsVisibleTo(MvvmAssemblyHelper.TestsFreeAssemblyName)]
 [assembly: InternalsVisibleTo(MvvmAssemblyHelper.MvvmUIAssemblyName)]

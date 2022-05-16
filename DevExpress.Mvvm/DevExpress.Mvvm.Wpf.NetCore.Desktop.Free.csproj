@@ -20,6 +20,7 @@
     <AssemblyOriginatorKeyFile>..\DevExpress.Mvvm.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <IntermediateOutputPath>obj.NetCore.Desktop.Free</IntermediateOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>21.1.0</Version>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
